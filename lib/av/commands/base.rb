@@ -146,8 +146,8 @@ module Av
           add_output_param 'acodec', 'libvorbis'
           add_output_param 'vcodec', 'libtheora'
         when /mp4$/
-          add_output_param 'acodec', 'aac'
-          add_output_param 'strict', 'experimental'
+          # add_output_param 'acodec', 'aac'
+          add_output_param 'strict', '-2'
         end
       end
 
